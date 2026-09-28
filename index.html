@@ -6,23 +6,38 @@
   content="width=device-width, initial-scale=1.0">
 <title>blog</title>
   <style>
+    :root {
+    --cor-primaria: darkolivegreen;
+    --cor-secundaria: aliceblue;
+    --cor-fundo: #ffffff;
+    --cor-texto: #151428;
+    --cor-contraste: #f3eef7;
+    --cor-botao: #f9f9f9;
+    }
+    .temaescuro{
+      --cor-primaria: darkolivegreen;
+    --cor-secundaria: aliceblue;
+    --cor-fundo: #000000;
+    --cor-texto: #151428;
+    --cor-contraste: #f3eef7;
+    --cor-botao: #f9f9f9;
+    }
     body{
 max-width: 100vw;
 margin: 0;
 font-family: sans-serif;
     }
-    
-    header{
-    background-color: darkolivegreen;
-color: aliceblue;
+     header{
+    background-color: var(--cor-primaria);
+color: var(--cor-secundaria);
 text-align: center;
 margin: 0 auto;
 padding: 16px;
 }
     
 main{
-  background-color: #FFFFFF;
-  color: #183C63;
+  background-color: var(--cor-fundo);
+  color: var(--cor-texto);
   text-align: center;
 margin: 0 auto;
 padding: 16px;
@@ -75,7 +90,7 @@ display: flex;
     </style>
 </head>
     
-<body>
+<body class="tema escuro">
   <header>
 <h1>Meu blog sobre algumas curiosidades sobre gatos</h1>
 <p>Aqui vou compartilhar fatos e curiosidades sobre este animal.</p>
@@ -108,7 +123,7 @@ display: flex;
 <p>Fazer pãozinho: Quando os gatos amassam superfícies macias com as patas alternadas, eles estão revivendo um comportamento de infância da época em que mamavam para estimular o fluxo de leite da mãe. Nos adultos, significa que se sentem seguros e felizes.</p>
 
 <p>Por que eles trazem "presentes"?: Se o seu gato caça e traz insetos ou pequenos animais para dentro de casa, não é por maldade: ele está tentando te ensinar a caçar, te vendo como um membro inepto da "família" que precisa de ajuda para se alimentar.</p>
-  <p>class="artigo-fonte">Fonte: <a href="https://www.tnmoc.org/colossus">The National Museum of Computing</a></p>
+  <p>Fonte: <a href="https://www.tnmoc.org/colossus">The National Museum of Computing</a></p>
    <button class="btn-curtida">😽 <span>0</span></button> 
         <button class="btn-curtida">😹 <span>0</span></button>
 </div>
@@ -126,7 +141,7 @@ display: flex;
 <p>Visão noturna: Eles enxergam muito bem com pouca luz (cerca de seis vezes menos luz do que nós precisamos) porque possuem uma camada refletora no fundo dos olhos chamada tapetum lucidum — que é o que faz os olhos deles brilharem no escuro.</p>
 
 <p>A coluna elástica: Um gato tem cerca de 230 ossos (nós temos 206), sendo que muitos deles ficam na coluna vertebral e na cauda, o que confere a eles aquela flexibilidade extraordinária e o famoso reflexo de endireitamento ao cair.</p>
- <p class="artigo-fonte">Fonte: <a href="https://www.tnmoc.org/colossus">The National Museum of Computing</a></p> 
+ <p>Fonte: <a href="https://www.tnmoc.org/colossus">The National Museum of Computing</a></p> 
   <button class="btn-curtida">😽 <span>0</span></button> 
         <button class="btn-curtida">😹 <span>0</span></button>
 </div>
@@ -144,7 +159,7 @@ display: flex;
 <p>Idade Média: Na Europa medieval, infelizmente, os gatos sofreram com superstições absurdas e foram associados a bruxas. Essa perseguição reduziu a população felina, o que indiretamente ajudou a proliferação de ratos que transmitiam a Peste Negra.</p>
 
 O primeiro gato astronauta: Em 1963, uma gata francesa chamada Félicette foi lançada ao espaço em um foguete. Ela sobreviveu à viagem e retornou à Terra como uma verdadeira heroína científica.</p>
-<p class="artigo-fonte">Fonte: <a href="https://www.tnmoc.org/colossus">The National Museum of Computing</a></p>
+<p>Fonte: <a href="https://www.tnmoc.org/colossus">The National Museum of Computing</a></p>
   <button class="btn-curtida">😽 <span>0</span></button> 
         <button class="btn-curtida">😹 <span>0</span></button>
 </div>
